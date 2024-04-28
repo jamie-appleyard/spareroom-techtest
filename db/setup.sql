@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS prices_test;
+DROP DATABASE IF EXISTS checkout_test;
 
-CREATE DATABASE prices_test;
+CREATE DATABASE checkout_test;
