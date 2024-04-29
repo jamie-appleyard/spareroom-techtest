@@ -1,0 +1,24 @@
+{
+    "GET /checkout": {
+        "description": "returns the sub total of the items in the request body",
+        "exampleRequest": [
+            {
+            "code": "A",
+            "quantity": 3
+            },
+            {
+            "code": "B",
+            "quantity": 3
+            },
+            {
+            "code": "C",
+            "quantity": 1
+            },
+            {
+            "code": "D",
+            "quantity": 2
+            }
+        ],
+        "exampleResponse": {"subTotal": 284}
+    }
+}

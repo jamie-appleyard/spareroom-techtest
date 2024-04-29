@@ -20,7 +20,7 @@ const insertPriceDataIntoPriceTable = (priceData) => {
     return db.query(insertPricesQueryStr)
 }
 
-//Seed function removes the prices table if it exists, creates the price table, insert price data in to that table.
+//Seed function removes the prices table if it exists, creates the price table then inserts price data in to that table.
 const seed = (priceData) => {
     return db
     .query(`DROP TABLE IF EXISTS prices;`)
